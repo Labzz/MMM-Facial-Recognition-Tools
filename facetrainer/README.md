@@ -6,6 +6,7 @@ The scripts in this directory are based on scripts from [pi-facerec-box](https:/
 1. Make sure you have all dependencies (see bellow) installed.
 2. Enter the `tools/facetrainer` directory from a terminal and run `python capture.py`.
 3. Decide whether you want to capture images from your web cam or convert existing `.jpg` images.
+   If you use the convert tool, make sure you're write out the full path, for example `/home/pi/yourfolder/`
 4. Enter the name of the person you are about to capture. Images will be stored in a folder named after the captured person in `tools/facetrainer/training_data/`.
 5. Follow screen instructions.
 
